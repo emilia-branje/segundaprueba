@@ -1,0 +1,63 @@
+/* carga de fuentes personalizadas */
+@font-face {
+  font-family: player;
+  src: url(fonts/SedgwickAveDisplay-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: fuente2;
+  src: url(fonts/SyneMono-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: fuente3;
+  src: url(fonts/PressStart2P-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: fuente4;
+  src: url(fonts/Caveat-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+/* edicion de estilo de fuente de barra de navegacion superior */
+
+.navigator {
+  font-family: player, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(0, 217, 255);
+  font-size: 30px;
+}
+/* edicion de estilo de fuente de barra de navegacion inferior */
+#contacto {
+  font-family: fuente2;
+  color: rgba(255, 248, 220, 0.566);
+  padding-inline-end: 20px;
+}
+/* configuracion de carrusel */
+#carrusel {
+  margin-top: 66px;
+  object-fit: cover;
+  object-position: bottom;
+  overflow: hidden;
+  height: 550px;
+}
+/* margen entre contenedores */
+#margen {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+#ccaption {
+  background-color: chartreuse;
+  padding-left: 5px;
+}
+
+h1 {
+  font-family: fuente3;
+  font-size: x-large;
+  color: blueviolet;
+}
+
+p {
+  font-family: fuente4;
+  font-size: x-large;
+}
